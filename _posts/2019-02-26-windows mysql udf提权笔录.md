@@ -12,6 +12,7 @@ tags:
     
 ---
 
+1.解码sqlmap/udf 目录下的dll文件。
 
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog12-01.jpg)
 
