@@ -18,14 +18,14 @@ tags:
 
 四哥这本书里关于调试是使用eclipse 我比较喜欢jetbrains公司的工具集。所以这里就是用Android Studio作为演示。
 
-####准备工作:
+准备工作:
 1.需要的apk文件，这里为了方便演示用的是一个网上别人写的demo 下载地址:[mytestapp](https://github.com/MartinHan01/android_reverse_practice/blob/master/mytestapp/mytestapp.apk) 
 
 2.需要给Android Studio 安装smaliidea插件。 下载地址:[smaliidea](https://bitbucket.org/JesusFreke/smali/downloads/smalidea-0.05.zip)
 
 有兴趣的可以去[项目主页](https://github.com/JesusFreke/smali)
 
-####开始：
+开始：
 1.把apk文件安装在手机上。
 
 ```
