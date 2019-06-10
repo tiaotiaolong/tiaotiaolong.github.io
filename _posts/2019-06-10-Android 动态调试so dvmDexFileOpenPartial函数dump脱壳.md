@@ -31,20 +31,22 @@ adb forward tcp:23946 tcp:23946
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-02.jpg)
 
 3.调试启动app，这样启动和正常点击app启动的区别在于可以启动之后再很早的地方断住(包名在在mainfest文件中会有)
-![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-03.jpg)
+![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-04.jpg)
+
 
 
 ```
 adb shell am start -D -n "你的程序的Activity全路径"
 ```
-![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-04.jpg)
+![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-07.jpg)
 
 这个时候手机会出现等到调试的字样。
 
 4.打开IDA attach目标进程 可以利用搜索包名来寻找
 打开IDA设置，勾选debugger option
+![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-03.jpg)
 
-![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-05.jpg)
+
 
 
 5.jdb attach上调试器
@@ -55,11 +57,13 @@ adb shell am start -D -n "你的程序的Activity全路径"
 jdb -connect com.sun.jdi.SocketAttach:hostname=127.0.0.1,port=8700
 
 ```
-![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-06.jpg)
+![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-05.jpg)
+
 
 
 如果connect不上，先执行adb forward tcp:8700 jdwp:(被调试进程的pid)在执行上述jdb命令
-![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-07.jpg)
+![](http://tiaotiaolong.cn-bj.ufileos.com/blog17-06.jpg)
+
 
 
 6 分析基地址和偏移地址在dvmDexFileOpenPartial函数下断点
