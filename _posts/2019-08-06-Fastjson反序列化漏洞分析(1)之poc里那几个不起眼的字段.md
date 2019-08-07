@@ -1,4 +1,19 @@
-## Fastjson反序列化漏洞分析(1)之poc里那几个不起眼的字段
+
+
+---
+layout:     post
+title:      Apache Common组件反序列化原理
+subtitle:   
+date:       2019-08-06
+author:     跳跳龙
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - java
+    - 
+    
+        
+---
 
 ### 本文章属于[tiaoVulenv](https://github.com/tiaotiaolong/tiaoVulenv)项目的系列文章。
 ### 关于漏洞
