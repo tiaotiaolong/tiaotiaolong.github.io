@@ -2,7 +2,7 @@
 
 ---
 layout:     post
-title:      Apache Common组件反序列化原理
+title:      Fastjson反序列化漏洞分析(1)之poc里那几个不起眼的字段
 subtitle:   
 date:       2019-08-06
 author:     跳跳龙
@@ -10,7 +10,7 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - java
-    - 
+    - fastjson
     
         
 ---
