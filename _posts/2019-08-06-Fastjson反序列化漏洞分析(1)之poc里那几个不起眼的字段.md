@@ -2,10 +2,10 @@
 layout:     post
 title:      Fastjson反序列化漏洞分析
 subtitle:   poc里那几个不起眼的字段
-date:       2019-07-19
+date:       2019-08-06
 author:     跳跳龙
 header-img: img/post-bg-ios9-web.jpg
-catalog: true
+catalog: truexw
 tags:
     - java
     
