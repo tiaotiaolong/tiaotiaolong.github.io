@@ -12,6 +12,8 @@ tags:
     
 ---
 
+(文章版权归笔者跳跳龙所有，谢绝转载，请勿拾人牙慧)
+
 1.解码sqlmap/udf 目录下的dll文件。
 
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog12-01.jpg)
