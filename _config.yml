@@ -99,6 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "墨晴",
+        href: "https://mushroom5.github.io"
+    },
+    {
         title: "Netfairy",
         href: "http://www.netfairy.net"
     }
