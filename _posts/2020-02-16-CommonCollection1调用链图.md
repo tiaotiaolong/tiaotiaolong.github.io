@@ -11,7 +11,7 @@ tags:
             
 ---
 
-##CommonCollection1
+## CommonCollection1
 
 在CommonCollection1中，这个调用链应该是最为被人讨论的一个，相比URLDNS调用链，这个可以说比较复杂了，我个人在学习的过程中，发现最难理解的就是java动态代理导致的从readObject函数里的setEntry()调用到invoke()。
 
