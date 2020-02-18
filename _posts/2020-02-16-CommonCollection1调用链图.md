@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      CommonCollection1调用链图。
+title:      CommonCollection1调用链图
 subtitle:   
 date:       2020-02-16
 author:     跳跳龙
